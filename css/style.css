@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+  /* padding: 40px; */
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin: 0;
+  width: 100%;
+}
+
+h2,
+.diploma {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 5px;
+  /* margin-bottom: 6px; */
+}
+
+.diploma-link{
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 7px;
+
+  /* margin: 0; */
+}
+
+.wrapper {
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: white;
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid rgb(140, 138, 138); */
+}
+
+/* Main content */
+.main-content {
+  padding: 15px 48px;
+
+  width: 70%;
+}
+
+.my-profession {
+  /* margin-bottom: 18px; */
+  color: #498ca4;
+  font-size: 16px;
+  /* margin-bottom: 20px; */
+}
+
+.title-name {
+  font-size: 42px;
+  color: #275262;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 34px;
+  /* width: 525px; */
+}
+
+.link-progect {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link-color2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+.link-color-git {
+  color: #161d2a;
+}
+.phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #161d2a;
+}
+.color-text {
+  color: #6d9bf5;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.color-diploma{
+  color: #161d2a;
+}
+
+.color-text span {
+  font-size: 15px;
+}
+.color-text,
+.company-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* margin-top: 42px; */
+  margin-bottom: 2px;
+}
+h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 12px;
+  margin: 0;
+}
+p,
+li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.year {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 3px;
+}
+
+.skills {
+  background-color: #e0ebfe;
+  width: 30%;
+}
+
+.skills-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.contact-skills {
+  margin-left: 40px;
+  margin-top: 45px;
+}
+img {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 221px;
+  height: 228px;
+}
+
+aside {
+  width: 370px;
+}
+
+.sidebar {
+  margin-bottom: 8px;
+}
+.contact-type {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-left: 5px;
+}
+.contact-type-text {
+  margin: 0;
+}
+
+.contact {
+  color: #595959;
+}
+.skills-list {
+  margin: 0;
+  padding: 0 0 0 14px;
+}
+.skills-list-item {
+  color: #6d9bf5;
+}
+.skills-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+/* ROJECT EXPERIENCE */
+
+.project-content {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.link-color {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+.project-item-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  display: flex;
+  gap: 4px;
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+
+.project-texnoleg {
+  display: flex;
+  gap: 12px;
+}
+
+.company {
+  margin-bottom: 10px;
+}
+
+.work {
+  margin-bottom: 15px;
+}
+
+.company-list {
+  margin: 0;
+  padding: 0 0 0 14px;
+  /* width: 100%; */
+}
+
+.company-list-item {
+  width: 100%;
+}
+
+/* Education */
+
+/* .education-title {
+  margin-top: 30px;
+} */
+
+.education-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education-item {
+  margin-bottom: 8px;
+}
+
+.education-color-text {
+  font-size: 18px;
+}
+
+/* CONTACT INFORMATION */
+
+.contact-social-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* color: #005fff; */
+}
+
+.contact-social {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-social-icon {
+  fill: #4485f5;
+}
+
+.contact-social-link-linkedin {
+  background-color: #3872d6;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.contact-icon {
+  margin-right: 7px;
+}
